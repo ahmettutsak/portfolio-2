@@ -7,7 +7,10 @@ export default function Navbar() {
       <div className="flex">
         {Array.from(name).map((letter) => {
           return (
-            <h2 className="text-3xl font-bold hover:scale-125 transition-transform select-none">
+            <h2
+              key={letter}
+              className="text-3xl font-bold hover:scale-125 transition-transform select-none"
+            >
               {letter === " " ? "\u00A0" : letter}
             </h2>
           );
