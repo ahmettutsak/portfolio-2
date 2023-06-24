@@ -32,7 +32,7 @@ export default function About() {
         <div className="w-[33%] p-5">
           <h2 className="text-2xl">SERVICES</h2>
           <p className="mt-4 text-white tracking-wide">
-            Whether you're a design agency, creative studio or just an
+            Whether you&apos;re a design agency, creative studio or just an
             individual designer I am here to help you transform your designs
             into an immersive website.
           </p>
