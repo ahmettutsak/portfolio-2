@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section className="w-screen h-screen flex items-center justify-center relative overflow-hidden">
       <Image
-        className="absolute bottom-0 z-10"
+        className="absolute bottom-0 z-10 select-none"
         src={me}
         alt={"me"}
         width={500}

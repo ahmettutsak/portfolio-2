@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   const name = "Ahmet Tutsak";
   return (
-    <nav className="flex justify-between w-full items-center fixed px-12 py-12 z-20">
+    <nav className="flex justify-between w-full items-center fixed px-12 py-12 z-20 ">
       <div className="flex">
         {Array.from(name).map((letter) => {
           return (

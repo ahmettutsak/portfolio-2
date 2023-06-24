@@ -5,7 +5,7 @@ export default function TextSlider({ title }) {
         {title.map((tit) => {
           return (
             <h2
-              className="text-6xl bg-purple-600 text-black p-6 rounded hover:bg-black hover:text-purple-600 select-none transition-all hover:scale-125"
+              className="text-7xl text-purple-600 select-none transition-all hover:scale-125"
               key={tit}
             >
               {tit}
@@ -17,7 +17,7 @@ export default function TextSlider({ title }) {
         {title.map((tit) => {
           return (
             <h2
-              className="text-6xl bg-purple-600 text-black p-6 rounded hover:bg-black hover:text-purple-600 select-none transition-all hover:scale-125"
+              className="text-7xl text-purple-600 select-none transition-all hover:scale-125"
               key={tit}
             >
               {tit}
