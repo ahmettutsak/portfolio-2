@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import { GithubLogo, LinkedinLogo } from "./svgs";
 
 export default function Navbar() {
   const name = "Ahmet Tutsak";
@@ -66,6 +67,22 @@ export default function Navbar() {
         >
           X
         </div>
+        <div className="flex gap-8">
+          <Link
+            className={"hover:scale-125 transition-transform fill-white"}
+            href={"https://github.com/ahmettutsak"}
+            target="blank"
+          >
+            <GithubLogo />
+          </Link>
+          <Link
+            className={"hover:scale-125 transition-transform fill-white"}
+            href={"https://www.linkedin.com/in/ahmettutsak/"}
+            target="blank"
+          >
+            <LinkedinLogo />
+          </Link>
+        </div>
       </div>
     );
   };
@@ -89,6 +106,22 @@ export default function Navbar() {
         |||
       </div>
       {open && <MobileMenu />}
+      <div className="bg-purple-600 p-4 xl:absolute right-0 -bottom-[50vh] rounded xl:flex flex-col gap-8 hidden">
+        <Link
+          className={"hover:scale-125 transition-transform"}
+          href={"https://github.com/ahmettutsak"}
+          target="blank"
+        >
+          <GithubLogo />
+        </Link>
+        <Link
+          className={"hover:scale-125 transition-transform"}
+          href={"https://www.linkedin.com/in/ahmettutsak/"}
+          target="blank"
+        >
+          <LinkedinLogo />
+        </Link>
+      </div>
     </nav>
   );
 }

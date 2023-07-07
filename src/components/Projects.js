@@ -8,6 +8,8 @@ import mov from "@/../public/mov.png";
 import art from "@/../public/art.png";
 import wet from "@/../public/wet.png";
 
+import { GithubLogo, ExternalLink } from "./svgs";
+
 export default function Projects() {
   const [img, setImg] = useState(mov);
 
@@ -23,11 +25,19 @@ export default function Projects() {
       >
         <h2 className="text-2xl text-white">Movie App</h2>
         <div className="flex justify-center items-center gap-4">
-          <Link target="blank" href="https://github.com/ahmettutsak/movie">
-            GitHub
+          <Link
+            className="fill-white hover:scale-110 hover:fill-purple-600 transition-all"
+            target="blank"
+            href="https://github.com/ahmettutsak/movie"
+          >
+            <GithubLogo />
           </Link>
-          <Link target="blank" href="https://moviesnextjs.netlify.app">
-            Page
+          <Link
+            className="fill-white hover:scale-110 hover:fill-purple-600 transition-all"
+            target="blank"
+            href="https://moviesnextjs.netlify.app"
+          >
+            <ExternalLink />
           </Link>
         </div>
       </div>
@@ -37,11 +47,19 @@ export default function Projects() {
       >
         <h2 className="text-2xl text-white">Art Galery App</h2>
         <div className="flex justify-center items-center gap-4">
-          <Link target="blank" href="https://github.com/ahmettutsak/art">
-            GitHub
+          <Link
+            className="fill-white hover:scale-110 hover:fill-purple-600 transition-all"
+            target="blank"
+            href="https://github.com/ahmettutsak/art"
+          >
+            <GithubLogo />
           </Link>
-          <Link target="blank" href="https://artwithnextjs.netlify.app">
-            Page
+          <Link
+            className="fill-white hover:scale-110 hover:fill-purple-600 transition-all"
+            target="blank"
+            href="https://artwithnextjs.netlify.app"
+          >
+            <ExternalLink />
           </Link>
         </div>
       </div>
@@ -51,11 +69,19 @@ export default function Projects() {
       >
         <h2 className="text-2xl text-white">Weather App</h2>
         <div className="flex justify-center items-center gap-4">
-          <Link target="blank" href="https://github.com/ahmettutsak/weather">
-            GitHub
+          <Link
+            className="fill-white hover:scale-110 hover:fill-purple-600 transition-all"
+            target="blank"
+            href="https://github.com/ahmettutsak/weather"
+          >
+            <GithubLogo />
           </Link>
-          <Link target="blank" href="https://wweatherreact.netlify.app">
-            Page
+          <Link
+            className="fill-white hover:scale-110 hover:fill-purple-600 transition-all"
+            target="blank"
+            href="https://wweatherreact.netlify.app"
+          >
+            <ExternalLink />
           </Link>
         </div>
       </div>
