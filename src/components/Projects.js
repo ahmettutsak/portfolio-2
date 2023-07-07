@@ -63,7 +63,7 @@ export default function Projects() {
   );
 
   return (
-    <div id="projects" className="w-screen h-screen p-24 flex flex-col">
+    <div id="projects" className="w-screen p-24 flex flex-col">
       <h2 className="text-white text-5xl p-4">Projects</h2>
       <div className="flex mt-12">
         <div>

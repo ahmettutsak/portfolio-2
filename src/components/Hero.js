@@ -13,7 +13,7 @@ export default function Hero() {
         alt={"me"}
         width={550}
       />
-      <div>
+      <div className="xl:flex hidden">
         <TextSlider title={title} />
       </div>
     </section>
