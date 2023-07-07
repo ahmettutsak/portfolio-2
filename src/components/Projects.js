@@ -16,10 +16,10 @@ export default function Projects() {
   };
 
   const Project = () => (
-    <div className="flex flex-col justify-between items-center w-full">
+    <div className="flex flex-col justify-between gap-16 items-center w-full">
       <div
         onMouseEnter={() => changeImg(mov)}
-        className="w-96 p-4 flex justify-between"
+        className="w-full xl:p-4 flex justify-between"
       >
         <h2 className="text-2xl text-white">Movie App</h2>
         <div className="flex justify-center items-center gap-4">
@@ -33,7 +33,7 @@ export default function Projects() {
       </div>
       <div
         onMouseEnter={() => changeImg(art)}
-        className="w-96 p-4 flex justify-between"
+        className="w-full xl:p-4 flex justify-between"
       >
         <h2 className="text-2xl text-white">Art Galery App</h2>
         <div className="flex justify-center items-center gap-4">
@@ -47,7 +47,7 @@ export default function Projects() {
       </div>
       <div
         onMouseEnter={() => changeImg(wet)}
-        className="w-96 p-4 flex justify-between"
+        className="w-full xl:p-4 flex justify-between"
       >
         <h2 className="text-2xl text-white">Weather App</h2>
         <div className="flex justify-center items-center gap-4">
@@ -63,12 +63,12 @@ export default function Projects() {
   );
 
   return (
-    <div id="projects" className="w-screen p-24 flex flex-col">
+    <div id="projects" className="w-screen xl:p-24 p-12 flex flex-col">
       <h2 className="text-white text-5xl p-4">Projects</h2>
       <div className="flex mt-12">
         <div>
           <Image
-            className="h-[600px] rounded-xl"
+            className="h-[600px] rounded-xl hidden xl:flex"
             width={3800}
             height={800}
             src={img}
