@@ -73,10 +73,10 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between w-full items-center fixed px-12 py-12 z-20 ">
       <div className="flex">
-        {Array.from(name).map((letter) => {
+        {Array.from(name).map((letter, index) => {
           return (
             <h2
-              key={letter}
+              key={index}
               className="text-3xl font-bold hover:scale-125 transition-transform select-none"
             >
               {letter === " " ? "\u00A0" : letter}
