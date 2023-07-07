@@ -12,7 +12,7 @@ export default function Contact() {
               key={index}
               className="xl:text-7xl text-2xl font-bold hover:scale-125 hover:-translate-y-5 transition-transform select-none"
             >
-              {letter}
+              {letter === " " ? "\u00A0" : letter}
             </Link>
           );
         })}
