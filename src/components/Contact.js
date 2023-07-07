@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div id="contact" className="w-screen h-screen xl:p-24 p-12 flex flex-col">
       <h2 className="text-white text-5xl p-4">Say Hello 👋</h2>
-      <div className="flex w-full p-24 justify-center mt-24">
+      <div className="flex w-full p-24 justify-center xl:mt-24">
         {Array.from(mail).map((letter, index) => {
           return (
             <Link
