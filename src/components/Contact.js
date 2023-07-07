@@ -18,8 +18,8 @@ export default function Contact() {
         })}
       </div>
       <h2 className="w-full text-center text-white tracking-wide text-xl">
-        I'm looking forward to hearing from you. Please use the above email
-        address to reach me.
+        I{"\u0027"}m looking forward to hearing from you. Please use the above
+        email address to reach me.
       </h2>
     </div>
   );
