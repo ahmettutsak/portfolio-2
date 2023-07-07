@@ -14,3 +14,10 @@
   .animate {
     animation: scroll 5s linear infinite;
   }
+
+  @layer base {
+    html {
+      --scroll-behavior: smooth!important;
+scroll-behavior: smooth!important;
+    }
+  }

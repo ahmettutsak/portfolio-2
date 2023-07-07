@@ -11,7 +11,7 @@ export default function Hero() {
         className="absolute bottom-0 z-10 select-none"
         src={me}
         alt={"me"}
-        width={500}
+        width={550}
       />
       <div>
         <TextSlider title={title} />

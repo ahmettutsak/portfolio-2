@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="w-screen h-screen p-24 flex flex-col">
+    <div id="about" className="w-screen h-screen p-24 flex flex-col">
       <h2 className="text-white text-5xl p-4">About</h2>
       <div>
         <p className="w-[50%] p-4 text-2xl text-white tracking-wide">

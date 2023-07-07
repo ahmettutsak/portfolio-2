@@ -18,19 +18,19 @@ export default function Navbar() {
       </div>
       <div className="flex gap-12">
         <Link
-          href={"/"}
+          href={"#about"}
           className="text-white transition-all hover:text-purple-600 hover:scale-125 text-xl"
         >
           About
         </Link>
         <Link
-          href={"/"}
+          href={"#projects"}
           className="text-white transition-all hover:text-purple-600 hover:scale-125 text-xl"
         >
           Projects
         </Link>
         <Link
-          href={"/"}
+          href={"#contact"}
           className="text-white transition-all hover:text-purple-600 hover:scale-125 text-xl"
         >
           Contact
