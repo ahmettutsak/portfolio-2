@@ -7,6 +7,7 @@ import { useState } from "react";
 import mov from "@/../public/mov.png";
 import art from "@/../public/art.png";
 import wet from "@/../public/wet.png";
+import piz from "@/../public/piz.png";
 
 import { GithubLogo, ExternalLink } from "./svgs";
 
@@ -80,6 +81,28 @@ export default function Projects() {
             className="fill-white hover:scale-110 hover:fill-purple-600 transition-all"
             target="blank"
             href="https://wweatherreact.netlify.app"
+          >
+            <ExternalLink />
+          </Link>
+        </div>
+      </div>
+      <div
+        onMouseEnter={() => changeImg(piz)}
+        className="w-full xl:p-4 flex justify-between"
+      >
+        <h2 className="text-2xl text-white">Pizza App</h2>
+        <div className="flex justify-center items-center gap-4">
+          <Link
+            className="fill-white hover:scale-110 hover:fill-purple-600 transition-all"
+            target="blank"
+            href="https://github.com/ahmettutsak/pizza"
+          >
+            <GithubLogo />
+          </Link>
+          <Link
+            className="fill-white hover:scale-110 hover:fill-purple-600 transition-all"
+            target="blank"
+            href="https://cartoonpizza.vercel.app/"
           >
             <ExternalLink />
           </Link>

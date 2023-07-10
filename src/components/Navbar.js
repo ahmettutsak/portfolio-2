@@ -106,16 +106,16 @@ export default function Navbar() {
         |||
       </div>
       {open && <MobileMenu />}
-      <div className="bg-purple-600 p-4 xl:absolute right-0 -bottom-[50vh] rounded xl:flex flex-col gap-8 hidden">
+      <div className="p-4 xl:absolute right-0 -bottom-[48vh] rounded xl:flex flex-col gap-8 hidden">
         <Link
-          className={"hover:scale-125 transition-transform"}
+          className={"hover:scale-125 transition-transform fill-purple-600"}
           href={"https://github.com/ahmettutsak"}
           target="blank"
         >
           <GithubLogo />
         </Link>
         <Link
-          className={"hover:scale-125 transition-transform"}
+          className={"hover:scale-125 transition-transform fill-purple-600"}
           href={"https://www.linkedin.com/in/ahmettutsak/"}
           target="blank"
         >
