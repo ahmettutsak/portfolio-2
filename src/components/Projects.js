@@ -119,8 +119,8 @@ export default function Projects() {
           <Image
             className={`${
               img === mov
-                ? "opacity-100 translate-x-0 translate-y-0 blur-0 hue-rotate-0"
-                : "opacity-0 translate-x-5 translate-y-4 blur-sm hue-rotate-90"
+                ? "opacity-100 translate-x-0 translate-y-0 blur-0 hue-rotate-0 rotate-0 scale-100"
+                : "opacity-0 translate-x-5 translate-y-4 blur-sm hue-rotate-90 rotate-2 scale-105"
             } absolute top-0 left-0 h-[600px] w-[1200px] rounded-xl hidden xl:flex transition ease-in-out duration-500`}
             src={mov}
             alt="asd"
@@ -128,8 +128,8 @@ export default function Projects() {
           <Image
             className={`${
               img === art
-                ? "opacity-100 translate-x-0 translate-y-0 blur-0 hue-rotate-0"
-                : "opacity-0 translate-x-5 translate-y-4 blur-sm hue-rotate-90"
+                ? "opacity-100 translate-x-0 translate-y-0 blur-0 hue-rotate-0 rotate-0 scale-100"
+                : "opacity-0 translate-x-5 translate-y-4 blur-sm hue-rotate-90 rotate-2 scale-105"
             } absolute top-0 left-0 h-[600px] w-[1200px] rounded-xl hidden xl:flex transition ease-in-out duration-500`}
             src={art}
             alt="asd"
@@ -137,8 +137,8 @@ export default function Projects() {
           <Image
             className={`${
               img === wet
-                ? "opacity-100 translate-x-0 translate-y-0 blur-0 hue-rotate-0"
-                : "opacity-0 translate-x-5 translate-y-4 blur-sm hue-rotate-90"
+                ? "opacity-100 translate-x-0 translate-y-0 blur-0 hue-rotate-0 rotate-0 scale-100"
+                : "opacity-0 translate-x-5 translate-y-4 blur-sm hue-rotate-90 rotate-2 scale-105"
             } absolute top-0 left-0 h-[600px] w-[1200px] rounded-xl hidden xl:flex transition ease-in-out duration-500`}
             src={wet}
             alt="asd"
@@ -146,8 +146,8 @@ export default function Projects() {
           <Image
             className={`${
               img === piz
-                ? "opacity-100 translate-x-0 translate-y-0 blur-0 hue-rotate-0"
-                : "opacity-0 translate-x-5 translate-y-4 blur-sm hue-rotate-90"
+                ? "opacity-100 translate-x-0 translate-y-0 blur-0 hue-rotate-0 rotate-0 scale-100"
+                : "opacity-0 translate-x-5 translate-y-4 blur-sm hue-rotate-90 rotate-2 scale-105"
             } absolute top-0 left-0 h-[600px] w-[1200px] rounded-xl hidden xl:flex transition ease-in-out duration-500`}
             src={piz}
             alt="asd"
