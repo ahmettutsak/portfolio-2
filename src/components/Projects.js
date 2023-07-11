@@ -19,7 +19,7 @@ export default function Projects() {
   };
 
   const Project = () => (
-    <div className="flex flex-col justify-between gap-16 items-center w-full">
+    <div className="flex flex-col justify-between gap-16 p-6 items-center w-full">
       <div
         onMouseEnter={() => changeImg(mov)}
         className="w-full xl:p-4 flex justify-between"
@@ -115,12 +115,41 @@ export default function Projects() {
     <div id="projects" className="w-screen xl:p-24 p-12 flex flex-col">
       <h2 className="text-white text-5xl p-4">Projects</h2>
       <div className="flex mt-12">
-        <div>
+        <div className="relative h-[600px] w-[3000px]">
           <Image
-            className="h-[600px] rounded-xl hidden xl:flex"
-            width={3800}
-            height={800}
-            src={img}
+            className={`${
+              img === mov
+                ? "opacity-100 translate-x-0 translate-y-0 blur-0 hue-rotate-0"
+                : "opacity-0 translate-x-5 translate-y-4 blur-sm hue-rotate-90"
+            } absolute top-0 left-0 h-[600px] w-[1200px] rounded-xl hidden xl:flex transition ease-in-out duration-500`}
+            src={mov}
+            alt="asd"
+          />
+          <Image
+            className={`${
+              img === art
+                ? "opacity-100 translate-x-0 translate-y-0 blur-0 hue-rotate-0"
+                : "opacity-0 translate-x-5 translate-y-4 blur-sm hue-rotate-90"
+            } absolute top-0 left-0 h-[600px] w-[1200px] rounded-xl hidden xl:flex transition ease-in-out duration-500`}
+            src={art}
+            alt="asd"
+          />
+          <Image
+            className={`${
+              img === wet
+                ? "opacity-100 translate-x-0 translate-y-0 blur-0 hue-rotate-0"
+                : "opacity-0 translate-x-5 translate-y-4 blur-sm hue-rotate-90"
+            } absolute top-0 left-0 h-[600px] w-[1200px] rounded-xl hidden xl:flex transition ease-in-out duration-500`}
+            src={wet}
+            alt="asd"
+          />
+          <Image
+            className={`${
+              img === piz
+                ? "opacity-100 translate-x-0 translate-y-0 blur-0 hue-rotate-0"
+                : "opacity-0 translate-x-5 translate-y-4 blur-sm hue-rotate-90"
+            } absolute top-0 left-0 h-[600px] w-[1200px] rounded-xl hidden xl:flex transition ease-in-out duration-500`}
+            src={piz}
             alt="asd"
           />
         </div>
